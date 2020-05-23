@@ -1,4 +1,4 @@
-//make a variable Name dateToday & timeToday in your botStar flow before adding this script
+//make a variable Name dateToday & timeToday in your botStar flow before adding this script, both variable data type should be Text
 //making date object
 var date_ob = new Date();
 let date = ("0" + date_ob.getDate()).slice(-2);
