@@ -6,7 +6,7 @@ var offset = 2;
 //making date object
 var d = new Date();
 var utc = d.getTime() + d.getTimezoneOffset() * 60000;
-var date_ob = new Date(utc + 3600000 * 2);
+var date_ob = new Date(utc + 3600000 * offset);
 let date = ("0" + date_ob.getDate()).slice(-2);
 let month = ("0" + (date_ob.getMonth() + 1)).slice(-2);
 let year = date_ob.getFullYear();
